@@ -62,7 +62,7 @@ sudo rfcomm bind 0 XX:XX:XX:XX:XX:XX 1
 ls -l /dev/serial/by-id
 
 # Capture at 2 Hz for 2 minutes (AUTO protocol)
-python3 elm_capture_to_csv.py \
+python3 collect_obd_data.py \
   --port /dev/ttyUSB0 --baud 38400 --proto 0 \
   --hz 2 --label healthy --outfile obd_healthy.csv --duration-s 120
 ```
@@ -73,7 +73,7 @@ python3 elm_capture_to_csv.py \
  Pair / trust in bluetoothctl (PIN often 1234 or 0000), then:
 sudo rfcomm bind 0 XX:XX:XX:XX:XX:XX 1
 
-python3 elm_capture_to_csv.py \
+python3 collect_obd_data.py \
   --port /dev/rfcomm0 --baud 115200 --proto 0 \
   --hz 2 --label healthy --outfile obd_bt.csv --duration-s 120
 ```
@@ -82,7 +82,7 @@ python3 elm_capture_to_csv.py \
 Replay the captured CSV to run inference
 
 ```
-python3 csv_infer_ei.py \
+python3 play_csv_to_eim.py \
   --model ./your_model.eim \
   --csv ./obd_healthy.csv \
   --axes "RPM [RPM],PEDAL INPUT [%],MAF [g/s],NOx [ppm]" \
