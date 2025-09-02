@@ -1,0 +1,4 @@
+# Use inside a virtualenv
+edge_impulse_linux
+numpy>=1.22
+pyserial>=3.5
