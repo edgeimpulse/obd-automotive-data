@@ -3,6 +3,14 @@
 This repo includes two scripts to capture automotive data as CSV for upload and another to run inference or forward the results to a dashboard for integration.
 
 
+https://github.com/user-attachments/assets/0f7b480e-c590-4770-b50e-cac6be4cd58b
+
+
+
+https://github.com/user-attachments/assets/153315f4-0d1e-4c8c-ab77-994b7c9b4038
+
+
+
 The scenario and car used for this example is a simulated air leak for the unhealthy condition simulated by disconnedting the intake sensor or vacume line:
 
  <img width="1148" height="577" alt="image" src="https://github.com/user-attachments/assets/3b0bf210-347c-40ee-82a4-defdcc22fb03" />
