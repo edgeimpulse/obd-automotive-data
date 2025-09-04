@@ -8,6 +8,8 @@ The scenario and car used for this example is a simulated air leak for the unhea
  <img width="1148" height="577" alt="image" src="https://github.com/user-attachments/assets/3b0bf210-347c-40ee-82a4-defdcc22fb03" />
 
 
+* simulating the airleak by disrupting the intake airflow measurements, disconnect the MAF sensor or a vaccume line.
+
 <img width="720" height="1073" alt="image" src="https://github.com/user-attachments/assets/561d4931-2e57-433a-b40d-0c9adabd3052" />
 
 
