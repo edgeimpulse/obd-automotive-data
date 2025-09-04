@@ -1,4 +1,4 @@
-## Capture OBD data 
+## OBD Automotive Data Capture
 
 This repo includes two scripts to capture automotive data as CSV for upload and another to run inference or forward the results to a dashboard for integration.
 
@@ -51,15 +51,11 @@ python3 -m venv ~/.venvs/ei
 source ~/.venvs/ei/bin/activate
 pip install --upgrade pip wheel
 
-# 2) Install Python deps (minimal)
+# 2) Install Python deps
 pip install edge_impulse_linux numpy pyserial
+pip install "opencv-python>=4.5.1.48,<5"
+pip install pyaudio
 
-# If your Edge Impulse package asks for OpenCV or PyAudio on import, add:
-# pip install "opencv-python>=4.5.1.48,<5"
-# pip install pyaudio
-
-# 3) (Recommended) Serial permissions so you don’t need sudo
-sudo usermod -a -G dialout $USER
 # reboot or log out/in to apply
 ```
 
@@ -132,5 +128,6 @@ paste the following
 ```
 
 ctrl+x save
+
 
 
