@@ -91,3 +91,17 @@ python3 play_csv_to_eim.py \
 ```
 
 
+Cron job to run on a pi for BMW used in the webinar
+
+```
+crontab -e
+```
+paste the following
+```
+# m h  dom mon dow   command
+@reboot /home/pi/start_obd_logger.sh >> /home/pi/obd_logs/boot.log 2>&1
+```
+
+ctrl+x save
+
+
