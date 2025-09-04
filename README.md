@@ -5,24 +5,26 @@ This repo includes two scripts to capture automotive data as CSV for upload and 
 
 The scenario and car used for this example is a simulated air leak for the unhealthy condition simulated by disconnedting the intake sensor or vacume line:
 
+ <img width="1148" height="577" alt="image" src="https://github.com/user-attachments/assets/3b0bf210-347c-40ee-82a4-defdcc22fb03" />
+
+
 <img width="720" height="1073" alt="image" src="https://github.com/user-attachments/assets/561d4931-2e57-433a-b40d-0c9adabd3052" />
 
 
 
 * Capture OBD-II data from an ELM327 (USB or Bluetooth/RFCOMM) into a CSV that Edge Impulse can ingest.
 
- <img width="1148" height="577" alt="image" src="https://github.com/user-attachments/assets/3b0bf210-347c-40ee-82a4-defdcc22fb03" />
+<img width="1130" height="597" alt="image" src="https://github.com/user-attachments/assets/2fe14c9a-766b-49e7-a0f4-25a9f24d91c1" />
 
 
 
 * Replay a CSV through an Edge Impulse .eim model and print predictions (top-k per window).
 
-  
-<img width="1130" height="597" alt="image" src="https://github.com/user-attachments/assets/2fe14c9a-766b-49e7-a0f4-25a9f24d91c1" />
+    <img width="1130" height="597" alt="image" src="https://github.com/user-attachments/assets/044460a7-dc69-4c66-bd6f-14928c4d8b18" />
+
 
 * Usinging the Python-OBD library for integration
 
-  <img width="1130" height="597" alt="image" src="https://github.com/user-attachments/assets/044460a7-dc69-4c66-bd6f-14928c4d8b18" />
 
 
 ## Install Steps
