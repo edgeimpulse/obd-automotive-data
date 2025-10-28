@@ -1,5 +1,7 @@
 ## OBD Automotive Data Capture
 
+Created as part of the Webinar [Webinar](https://youtu.be/CUSLX2o4cZQ) Anomaly Detection Anywhere: Edge AI Diagnostics Meets Satellite IoT 
+
 This repo includes two scripts to capture automotive data as CSV for upload and another to run inference or forward the results to a dashboard for integration.
 
 
